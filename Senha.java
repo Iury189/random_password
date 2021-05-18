@@ -55,23 +55,7 @@ public final class Senha {
         this.setBnumeros(numeros);
         this.setQuantidade(quantidade);
     }
-                            // Métodos
-    public void DesativarMaiscula() { this.setBmaiscula(false); }
-    
-    public void AtivarMaiscula() { this.setBmaiscula(true); }
-    
-    public void DesativarMinuscula() { this.setBminuscula(false); }
-    
-    public void AtivarMinuscula() { this.setBminuscula(true); }
-    
-    public void DesativarNumeros(){ this.setBnumeros(false); }
-    
-    public void AtivarNumeros() { this.setBnumeros(true); }
-    
-    public void DesativarSimbolos() { this.setBsimbolos(false); }
-    
-    public void AtivarSimbolos() { this.setBsimbolos(true); }
-    
+                           
     // Métodos que definem a posição randômica de caracteres e o tamanho da senha 
     public char Caractere_random(String str){
         Random random = new Random();
